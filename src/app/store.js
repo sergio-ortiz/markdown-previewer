@@ -1,10 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
+import editorReducer from "../features/editor/editorSlice";
 
 export default configureStore({
   reducer: {
-    default: state => {
-      state; 
-      return null;
-    },
+    editor: editorReducer,
   },
 })
