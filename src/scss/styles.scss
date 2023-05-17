@@ -4,6 +4,9 @@ textarea {
   resize: none;
 }
 
-#preview {
-  white-space: pre-line;
+blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  background: #f4f4f4;
+  color: #555;
 }
